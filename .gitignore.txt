@@ -1,0 +1,47 @@
+# Node.js / Server
+node_modules/
+client/node_modules/
+server/node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.DS_Store
+*.log
+
+# Server build files
+dist/
+build/
+
+# Client / React
+client/node_modules/
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+client/build/
+client/.cache/
+client/.idea/
+client/.vscode/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# NPM
+package-lock.json
+yarn.lock
+
+# Other
+coverage/
